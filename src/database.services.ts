@@ -9,7 +9,7 @@ export const collections: {
 // Initialize Connection
 export async function connectToDatabase() {
   const client: mongoDB.MongoClient = new mongoDB.MongoClient(
-    "mongodb://dba:666@homecare.canadacentral.cloudapp.azure.com:27017/test" as string
+    "" as string
   )
   await client.connect()
   const db: mongoDB.Db = client.db('test')

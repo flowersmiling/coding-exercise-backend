@@ -8,7 +8,7 @@ const database_services_js_1 = require("./database.services.js");
 const routes_task_js_1 = require("./routes.task.js");
 const cors_1 = __importDefault(require("cors"));
 const app = (0, express_1.default)();
-const port = 8000;
+const port = 8080;
 const corsOptions = {
     origin: '*',
     credentials: true,
