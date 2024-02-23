@@ -9,7 +9,7 @@ export const collections: {
 // Initialize Connection
 export async function connectToDatabase() {
   const client: mongoDB.MongoClient = new mongoDB.MongoClient(
-    "" as string
+    "akdjfafjaskfjasdfjdssfjakdsf" as string
   )
   await client.connect()
   const db: mongoDB.Db = client.db('test')
